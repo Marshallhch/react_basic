@@ -70,6 +70,8 @@ function App() {
   );
 }
 
+//외부 컴포넌트 props 전달 진행부터..
+
 Movie.propTypes = {
   title: PropTypes.string.isRequired,
   picture: PropTypes.string.isRequired,
